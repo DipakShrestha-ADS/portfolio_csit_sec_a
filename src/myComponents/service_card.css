@@ -1,0 +1,11 @@
+.service-card{
+    width: 360px;
+    background-color: azure;
+    box-shadow: 10px 20px rgba(128, 128, 128, 0.666);
+    padding: 10px;
+    text-align: center;
+}
+.service-card img{
+    width: 350px;
+    height: 250px;
+}

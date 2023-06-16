@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './NavBar.css'
 import CustomButton from '../myComponents/CustomButton'
+import { Link } from 'react-router-dom'
 
 function NavBar(props) {
     return (
@@ -13,7 +14,7 @@ function NavBar(props) {
                     <a href=''>ABOUT ME</a>
                     <a href=''>SERVICES</a>
                     <a href=''>PORTFOLIO</a>
-                    <a href=''>TESTIMONIALS</a>
+                    <Link to='/book'>BOOK</Link>
                     <a href=''>CONTACT ME</a>
                 </div>
                 <CustomButton onClick={()=>{
